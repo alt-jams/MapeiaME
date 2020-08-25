@@ -67,7 +67,7 @@ public class CaixaEntradaSaida extends javax.swing.JFrame {
         lixeiraLabel = new javax.swing.JLabel();
         Novo = new javax.swing.JLabel();
         caixaALabel = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tbMensagem = new javax.swing.JTable();
         voltar = new javax.swing.JButton();
@@ -157,11 +157,10 @@ public class CaixaEntradaSaida extends javax.swing.JFrame {
         caixaALabel.setForeground(new java.awt.Color(0, 102, 0));
         caixaALabel.setText("Caixa de entrada");
 
-        jLabel10.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel10.setFont(new java.awt.Font("Gill Sans MT", 1, 26)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 102, 0));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/UBES (2).png"))); // NOI18N
-        jLabel10.setText("Mapeia UBES");
+        jLabel11.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel11.setFont(new java.awt.Font("Gill Sans MT", 1, 26)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(0, 102, 0));
+        jLabel11.setText("Mapeia ME");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -173,15 +172,16 @@ public class CaixaEntradaSaida extends javax.swing.JFrame {
                 .addComponent(caixaALabel)
                 .addGap(213, 213, 213))
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(152, 152, 152)
-                .addComponent(jLabel10)
+                .addGap(199, 199, 199)
+                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(20, 20, 20)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(caixaALabel)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -380,7 +380,7 @@ public class CaixaEntradaSaida extends javax.swing.JFrame {
     private javax.swing.JLabel caixaLabel;
     private javax.swing.JButton excluir;
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel9;
